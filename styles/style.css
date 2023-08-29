@@ -56,6 +56,10 @@ body {
   display: block;
 }
 
+.address {
+  font-style: normal;
+}
+
 .cover {
   width: 1440px;
   height: 757px;
