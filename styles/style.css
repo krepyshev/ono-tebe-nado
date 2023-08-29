@@ -1,1 +1,98 @@
-/* место для вашего кода */
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header {
+  width: 1340px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  padding: 90px 50px;
+  /* background-color: #f4f4f4; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu li {
+  list-style-type: circle;
+}
+
+.menu li:first-child {
+  list-style: none;
+}
+
+.menu li.active a {
+  text-decoration: none;
+}
+
+.menu a {
+  text-transform: lowercase;
+}
+
+
+.logo {
+  width: 148px;
+  margin: auto;
+}
+
+.contacts {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.contacts > * {
+  display: block;
+}
+
+.cover {
+  width: 1440px;
+  height: 757px;
+  margin: 0 auto;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  inset: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.main-title {
+  color: #fff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.main-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
