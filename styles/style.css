@@ -14,26 +14,31 @@ body {
   margin-right: auto;
 }
 
-.menu {
+.header__menu {
+  display: flex;
+}
+
+.header__links-list {
+  margin: auto 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
+  gap: 30px;
 }
 
-.menu li {
+.header__links-list-item {
   list-style-type: circle;
 }
 
-.menu li:first-child {
+.header__links-list-item:first-child {
   list-style: none;
 }
 
-.menu li.active a {
+.header__link_active {
   text-decoration: none;
 }
 
-.menu a {
+.header__menu a {
   text-transform: lowercase;
 }
 
